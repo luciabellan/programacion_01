@@ -18,16 +18,10 @@ public class ex1 {
             
            
                 num = sc.nextInt();
-       
                 suma += num;
-                
                 cuantos++;
                 
-            
             }
-           
-     
-        
         System.out.println("Suma= "+suma);
         sc.close();
     }
