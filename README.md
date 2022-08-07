@@ -8,3 +8,6 @@ Subsequently, the program should present on the screen:
 - All the multiples of the number to investigate included between both limits.
 -How many are the previous numbers presented.
 - The value of your sum.
+
+Exercise 3: 
+Write a program that presents the multiplication table of the first num integers, with their first 20 products.
