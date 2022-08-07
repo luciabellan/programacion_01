@@ -26,12 +26,15 @@ public class ex2 {
         do{
             System.out.println("Inferior limit (between 0 and 30,000): ");
           limit1 = sc.nextInt();
+          sc.close();
+         
         }
         while(limit1 < limInf || limit1> limSup);
 
         do{
             System.out.println("Superior limit (between 0 and 30,000): ");
           limit2 = sc.nextInt();
+          sc.close();
         }
         while(limit2 < limInf || limit2> limSup);
 
@@ -40,11 +43,14 @@ public class ex2 {
             temp = limit1;
             limit1= limit2;
             limit2= temp;
+        }else{
+           
         }
 
         do{
             System.out.println("Number to check: ");
             num= sc.nextInt();
+            sc.close();
         } while(num < limit1 || num>limit2);
 
         System.out.println("multiple numbers of "+num+" in the interval ["+limit1+", "+limit2+"]: ");
@@ -58,6 +64,7 @@ public class ex2 {
         System.out.println("Total of numbers: "+total);
         System.out.println("Value of the sum: "+sum);
 
-
+        sc.close();
+        
     }
 }

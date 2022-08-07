@@ -1,4 +1,4 @@
-package exercise_3;
+
 
 import java.util.Scanner;
 
@@ -7,7 +7,7 @@ public class ex3 {
     public static void main (String[] args){
         int max = 20;
         int num;
-        String tecla;
+       
         Scanner sc = new Scanner(System.in);
       
         
@@ -21,7 +21,7 @@ public class ex3 {
             }
         }
        
-           
+        sc.close();
         
         
     }
